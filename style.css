@@ -16,9 +16,28 @@ span{
     width: 50%;
     padding-left: 2%;
 }
+
 .title img{
     width: 80%;
 }
+@media(max-width:700px){
+    .flexible-container{
+        display: block;
+    }
+    .title{
+        width: 100%;
+    }
+        #box1{
+            display: block;
+            width: 100%;
+        }
+        #box2{
+            display: block;
+            width: 100%;
+        
+    
+    }
+    }
 .button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
